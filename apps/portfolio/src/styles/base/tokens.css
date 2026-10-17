@@ -1,6 +1,6 @@
 
 :root {
-  --color-bg: #F0EEED;          
+  --color-bg: rgb(247, 246, 243);          
   --color-bg-dark: #18181B;
 
   --color-bg-surface-dark: #242424;
@@ -16,6 +16,9 @@
   --color-green : #6F9C76;
   --color-blue: #6840FF;
   --color-red: #F84131;
+  --color-light-brown: rgb(191, 163, 138);
+  --color-ligh-brown: rgb(106, 66, 31);
+  
 
   --color-bg-press: oklch(0.92 0.04 220);
   --color-bg-overlay: color-mix(in oklab, oklch(0% 0 0) 40%, transparent);;

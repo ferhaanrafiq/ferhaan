@@ -254,32 +254,32 @@ const twitterImageUrl =
         >
             <div
                 class="pt-column"
-                style="height: 100%; flex: 1; background-color: var(--color-green); border-right: solid 1px rgba(255, 255, 255, 0.2); transition: none !important;"
+                style="--i: 1; height: 100%; flex: 1; background-color: var(--color-light-brown); border-right: solid 1px rgba(255, 255, 255, 0.2); transition: none !important;"
             >
             </div>
             <div
                 class="pt-column"
-                style="height: 100%; flex: 1; background-color: var(--color-green); border-right: solid 1px rgba(255, 255, 255, 0.2); transition: none !important;"
+                style="--i: 2; height: 100%; flex: 1; background-color: var(--color-light-brown); border-right: solid calc(var(--sfu)*(.0625)) rgba(255, 255, 255, 0.2); transition: none !important;"
             >
             </div>
             <div
                 class="pt-column"
-                style="height: 100%; flex: 1; background-color: var(--color-green); border-right: solid 1px rgba(255, 255, 255, 0.2); transition: none !important;"
+                style="--i: 3; height: 100%; flex: 1; background-color: var(--color-light-brown); border-right: solid calc(var(--sfu)*(.0625)) rgba(255, 255, 255, 0.2); transition: none !important;"
             >
             </div>
             <div
                 class="pt-column"
-                style="height: 100%; flex: 1; background-color: var(--color-green); border-right: solid 1px rgba(255, 255, 255, 0.2); transition: none !important;"
+                style="--i: 4; height: 100%; flex: 1; background-color: var(--color-light-brown); border-right: solid calc(var(--sfu)*(.0625)) rgba(255, 255, 255, 0.2); transition: none !important;"
             >
             </div>
             <div
                 class="pt-column"
-                style="height: 100%; flex: 1; background-color: var(--color-green); border-right: solid 1px rgba(255, 255, 255, 0.2); transition: none !important;"
+                style="--i: 5; height: 100%; flex: 1; background-color: var(--color-light-brown); border-right: solid calc(var(--sfu)*(.0625)) rgba(255, 255, 255, 0.2); transition: none !important;"
             >
             </div>
             <div
                 class="pt-column"
-                style="height: 100%; flex: 1; background-color: var(--color-green); border-right: solid 1px rgba(255, 255, 255, 0.2); transition: none !important;"
+                style="--i: 6; height: 100%; flex: 1; background-color: var(--color-light-brown); border-right: solid  rgba(255, 255, 255, 0.2); transition: none !important;"
             >
             </div>
         </div>
@@ -317,7 +317,7 @@ const twitterImageUrl =
 
             <div
                 id="nav-links"
-                style="width: fit-content; display: flex; gap: calc(var(--sfu)*4)"
+                style="width: fit-content; display: flex; gap: calc(var(--sfu)*3)"
             >
                 <div
                     style="display: flex; align-items: center; gap: calc(var(--sfu)*2.25)"
@@ -337,20 +337,21 @@ const twitterImageUrl =
                         </div>
                     </a>
 
-                    <!-- <a
-                        href="/work"
-                        data-active={path == "/work" ? true : null}
+                    <a
+                        href="https://library.farhanali.org"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         class="line-reveal-trigger"
                         style="position: relative;"
                     >
-                        Work
+                        Library
                         <div
                             class="line-to-reveal"
                             style="position: absolute; bottom: -10%; left: 0; display: block; width: 100%; height: 1px; background-color: var(--color-text);
                          transition: transform .8s cubic-bezier(0.075, 0.82, 0.165, 1) .3s; transform: scaleX(0);"
                         >
                         </div>
-                    </a> -->
+                    </a>
 
                     <a
                         href="/about"

@@ -1,5 +1,6 @@
 ---
 import RootLayout from "../layouts/RootLayout.astro";
+import { socialLinks } from "../config/socialLinks";
 ---
 
 <RootLayout path="/">
@@ -87,7 +88,7 @@ import RootLayout from "../layouts/RootLayout.astro";
 				<a
 					data-magnetic
 					class="sclh"
-					href="https://github.com/Farhan-Ali-Rajpoot/"
+					href={socialLinks.github}
 					target="_blank"
 					rel="noopener noreferrer"
 					aria-label="Instagram"
@@ -119,7 +120,7 @@ import RootLayout from "../layouts/RootLayout.astro";
 				<a
 					data-magnetic
 					class="sclh"
-					href="https://www.linkedin.com/in/farhan-ali-036b62374 "
+					href={socialLinks.linkedin}
 					target="_blank"
 					rel="noopener noreferrer"
 					aria-label="LinkedIn"
@@ -149,7 +150,7 @@ import RootLayout from "../layouts/RootLayout.astro";
 
 				<a
 					data-magnetic
-					href="https://x.com/FaranAli_Dev"
+					href={socialLinks.x}
 					class="sclh"
 					target="_blank"
 					rel="noopener noreferrer"
@@ -180,7 +181,7 @@ import RootLayout from "../layouts/RootLayout.astro";
 				<a
 					data-magnetic
 					class="sclh"
-					href="https://www.instagram.com/ali_farhan_oop"
+					href={socialLinks.instagram}
 					target="_blank"
 					rel="noopener noreferrer"
 					aria-label="Instagram"
@@ -211,7 +212,7 @@ import RootLayout from "../layouts/RootLayout.astro";
 				<a
 					data-magnetic
 					class="sclh"
-					href="https://www.tiktok.com/@duferminded"
+					href={socialLinks.tiktok}
 					target="_blank"
 					rel="noopener noreferrer"
 					aria-label="TikTok"
@@ -237,7 +238,7 @@ import RootLayout from "../layouts/RootLayout.astro";
 				<a
 					data-magnetic
 					class="sclh"
-					href="https://www.youtube.com/@FarhanAli-l1d4q"
+					href={socialLinks.youtube}
 					target="_blank"
 					rel="noopener noreferrer"
 					aria-label="YouTube"

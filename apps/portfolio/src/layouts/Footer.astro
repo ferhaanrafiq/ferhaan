@@ -1,5 +1,7 @@
 ---
 import { socialLinks } from "../config/socialLinks";
+import { contactInfo } from "../config/contactInfo";
+
 const footerSitemap = [
     {
         title: "Menu",
@@ -30,8 +32,8 @@ const footerSitemap = [
     {
         title: "Contact",
         children: [
-            { label: "me@farhanali.org", href: "mailto:me@farhanali.org" },
-            { label: "+92 300 1174715", href: "tel:+923001174715" },
+            { label: contactInfo.email, href: `mailto:${contactInfo.email}` },
+            { label: contactInfo.phoneNumber, href: `tel:${contactInfo.phoneNumber}` },
         ],
     },
 ];
